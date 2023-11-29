@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Моя веб-сторінка</title>
+  <link rel="stylesheet" type="text/css" href="style2.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <ul class="container">
+        <li> <a href="page1.html">ЛР №4</a></li>
+        <li> <a href="#">ЛР №5</a></li>
+      </ul>
+    </nav>
+
+    <h1>Група: ТР-25<span id="group"></span></h1>
+    <h1>ПІБ: Тараненко Аліна Олександрівна<span id="fullName"></span></h1>
+    <h1>Варіант завдання: Стилі CSS<span id="studentVariant"></span></h1>
+  </header>
+
+  <main>
+    <section class="hidden modal">
+      <div class="quiz_inner">
+        <div class="flex">
+          <h2>Будь ласка, введіть ПІБ та групу</h2>
+          <input type="text" class="login_input" placeholder="ПІБ" name="name">
+          <input type="text" class="login_input" placeholder="Група" name="group">
+        </div>
+        </form>
+      </div>
+      <button class="submit_btn" id="submit_btn">Почати</button>
+    </section>
+    <div class="overlay hidden"></div>
+    <button class="login_btn">Розпочати тестування</button>
+  </main>
+
+  <script src="script2.js"></script>
+</body>
+
+</html>
