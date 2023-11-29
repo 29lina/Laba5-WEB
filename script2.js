@@ -714,7 +714,7 @@ function showResults() {
     headerContainer.innerHTML = headerTemplate;
 
     const resultTemplate = `<h3 class="result_msg">%result%</h3>`;
-    let result = `${loginInfo.name}, Ви набрали ${score}/100 балів!`;
+    let result = `${loginInfo.name}, Ви набрали ${score}/30 балів!`;
     const finalResult = resultTemplate.replace('%result%', result);
     taskContainer.innerHTML = finalResult;
     loginInfo.score = `${score}/30`;
